@@ -12,7 +12,7 @@ const Hero = () => {
       <p>I am a seasoned .NET developer with 3.5 years of experience in the industry, having had the privilege of contributing to Product Based Companies Like : <a href="https://www.gingerwebs.com/" target="_blank">Visit</a>.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">My Resume</div>
       </div>
     </div>
   )
