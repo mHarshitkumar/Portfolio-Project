@@ -60,7 +60,7 @@ const Contact = () => {
               <img src={call_icon} alt="Call Icon" /> <p>+91-8077579601</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="Location Icon" /> <p>Noida Sector-58, India</p>
+              <img src={location_icon} alt="Location Icon" /> <p>Noida , India</p>
             </div>
           </div>
         </div>
