@@ -101,9 +101,9 @@
   }
   
   .social-media-icons a {
-    margin-right: 10px; /* Adjust the spacing between icons */
+    margin-right: 10px; 
   }
   
   .social-media-icons a:last-child {
-    margin-right: 0; /* Removes margin from the last icon */
+    margin-right: 0;
   }

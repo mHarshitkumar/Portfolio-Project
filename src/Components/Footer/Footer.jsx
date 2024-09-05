@@ -10,7 +10,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
-
   const handleSubscribe = () => {
     if (!email) {
       toast.error('Please enter your email.');
@@ -27,7 +26,7 @@ const Footer = () => {
       toast.success('Thank you for subscribing!');
     }
 
-    setEmail(''); // Clear the email input field after submission
+    setEmail(''); 
   };
 
   return (
@@ -54,9 +53,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-bottom-left">© 2024 Harshit Kumar. All rights reserved.</p>
         <div className="footer-bottom-right">
-          {/* <p>Terms of Service</p>
+          <p>Terms of Service</p>
           <p>Privacy Policy</p>
-          <p>Connect with me</p> */}
+          <p>Connect with me</p>
           <div className="social-media-icons">
             <a href="https://www.linkedin.com/in/harshit-kumar-8a15261a8" target="_blank" rel="noopener noreferrer">
               <img src={linkedin_icon} alt="LinkedIn" width={30} />
