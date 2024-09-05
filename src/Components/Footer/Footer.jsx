@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './Footer.css';
 import user_icon from '../../assets/user_icon.svg';
 import footer_logo from '../../assets/NameLogo.png';
+import gitlab_icon from '../../assets/gitlab.png'; // Example paths to social icons
+import insta_icon from '../../assets/instagram.png';
+import linkedin_icon from '../../assets/linkedin.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -51,12 +54,33 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-bottom-left">© 2024 Harshit Kumar. All rights reserved.</p>
         <div className="footer-bottom-right">
-          <p>Terms of Service</p>
+          {/* <p>Terms of Service</p>
           <p>Privacy Policy</p>
-          <p>Connect with me</p>
+          <p>Connect with me</p> */}
+          <div className="social-media-icons">
+            <a href="https://www.linkedin.com/in/harshit-kumar-8a15261a8" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin_icon} alt="LinkedIn" width={30} />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <img src={insta_icon} alt="Twitter" width={30} />
+            </a>
+            <a href="https://github.com/mHarshitkumar" target="_blank" rel="noopener noreferrer">
+              <img src={gitlab_icon} alt="Facebook" width={30} />
+            </a>
+          </div>
         </div>
       </div>
-      <ToastContainer position="bottom-center" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
+      <ToastContainer 
+        position="bottom-center" 
+        autoClose={5000} 
+        hideProgressBar={false} 
+        newestOnTop={false} 
+        closeOnClick 
+        rtl={false} 
+        pauseOnFocusLoss 
+        draggable 
+        pauseOnHover 
+      />
     </div>
   );
 };

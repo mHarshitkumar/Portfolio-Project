@@ -95,3 +95,15 @@
         gap: 12px;
     }
 }
+.social-media-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-icons a {
+    margin-right: 10px; /* Adjust the spacing between icons */
+  }
+  
+  .social-media-icons a:last-child {
+    margin-right: 0; /* Removes margin from the last icon */
+  }
