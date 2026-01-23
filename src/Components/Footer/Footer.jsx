@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={footer_logo} alt="Footer Logo" width={50} />
-          <p>I am a seasoned .NET developer with 3.5 years of experience in the industry, having had the privilege of contributing to Product Based Companies.</p>
+          <p>I am a seasoned .NET developer with 4.10 years of experience in the industry, having had the privilege of contributing to Product Based Companies.</p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
